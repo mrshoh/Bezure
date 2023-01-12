@@ -1,0 +1,2265 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    
+}
+.header{
+    font-family: 'Red Rose', cursive;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+h3{
+    font-size: 20px;
+    font-family: 'Red Rose', cursive;
+}
+h4{
+    position: absolute;
+    right: 80.5%;
+    font-size: 20px;
+    color: #85e1b0;
+    font-family: 'Red Rose', cursive;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    font-family: 'Red Rose', cursive;
+}
+li {
+    margin: 0 25px;
+ }
+ button{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 120px;
+    height: 40px;
+    background-color: #85e1b0;
+    border: none;
+    color: #fff;
+    font-family: 'Red Rose', cursive;
+ }
+ button:hover{
+    cursor: pointer;
+ }
+.midle{
+    position: relative;
+    font-family: 'Red Rose', cursive;
+    width: 60%;
+    height: 130px;
+    border: 3px solid brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-left: 250px;
+}
+h1{
+    font-family: 'Red Rose', cursive;
+    font-size: 45px;
+}
+.img{
+    width: 50px;
+    height: 50px;
+    background-image: url(photo_2023-01-03_19-18-46.jpg);
+    background-size: contain;
+}
+.rd{
+    position: relative;
+    width: 100%;
+    height: 450px;
+}
+.top{
+    position: absolute;
+    top: 1%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.w2{
+    position: absolute;
+}
+.text{
+    font-family: 'Red Rose', cursive;
+    width: 40%; 
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 30%;
+}
+.robo{
+    width:150px;
+     height:150px;
+     background-image: url(casual-life-3d-white-robot\ 1.png);
+     background-size: contain;
+    position: absolute;
+    left: 78.5%;
+    top: 36%;
+}
+.human{
+    position: absolute;
+    left: 9%;
+    width:450px ;
+    height: 450px;
+    background-image: url(Group\ 13.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.bottom{
+    font-family: 'Red Rose', cursive;
+    position: absolute;
+    left: 55%;
+    top:0%;
+  width: 35%;
+  height: 100px;
+  z-index: 2;
+}
+h5{
+    text-align: center;
+    font-family: 'Red Rose', cursive;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+h2{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-family: 'Red Rose', cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    margin-top: 10px;
+}
+h6{
+    font-family: 'Red Rose', cursive;
+    position: absolute;
+    left: 30%;
+    bottom: -65%;
+    font-size: 15px;
+    color: rgb(239, 164, 239);
+    cursor: pointer;
+}
+.t1{
+    position: relative;
+    font-family: 'Red Rose', cursive;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Red Rose', cursive;
+    margin-top: 20px;
+
+}
+.q1{
+    font-family: 'Red Rose', cursive;
+    margin-top: 30px;
+    width: 200px;
+    height: 100%;
+    font-size: 30px;
+
+}
+sup{
+    font-family: 'Red Rose', cursive;
+    font-size: 10px;
+    position: absolute;
+    margin-bottom: 20px;
+}
+sub{
+    font-family: 'Red Rose', cursive;
+    font-size: 10px;
+}
+.q2{
+    width: 200px;
+    height: 100%;
+    background-color: J;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.c{
+    width: 63px;
+    height: 63px;
+    border: 15px solid rgba(194, 204, 200, 1);
+    border-radius: 50%;
+}
+.q3 p{
+    font-family: 'Red Rose', cursive;
+    width: 100px;
+    height: 30px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.c img{
+position: absolute;
+left: 75%;
+top: 20%;
+}
+.b{
+    font-family: 'Red Rose', cursive;
+    font-size: 30px;
+    position: absolute;
+
+    left:77.5% ;
+}
+.d1{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-family: 'Red Rose', cursive;
+    width: 75%;
+    height: 275px;
+    margin-left: 13.5%;
+    margin-top: 30px;
+    background-color: #dbf6f5;
+}
+.d1left img{
+    position: absolute;
+    top:20%;
+}
+.h img{
+    position: absolute;
+    left: 10%;
+}
+.d1right{
+    position: absolute;
+    top: 18%;
+    left: 55%;
+    width: 390px;
+    height: 100%;
+    z-index: 2;
+}
+.r{
+    text-align: center;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.g{
+    position: relative;
+    width: 100%;
+    height: 200px;
+}
+.g1{
+    margin-top: 75px;
+    margin-left:175px;
+    width: 50%;
+    height: 100%;
+}
+.g1 p{
+    font-family: 'Red Rose', cursive;
+    width: 350px;
+    margin-top: 20px;
+}
+.g1 h1{
+
+    text-align: center;
+}
+.g1 h2{
+    margin-top: 50px;
+}
+.g2{
+    position: absolute;
+    top:10%;
+    width: 33%;
+    height: 120%;
+    margin-left: 55%;
+    border: 2px solid rgba(194, 204, 200, 1);
+    ;
+}
+.g2 .j{
+    font-family: 'Red Rose', cursive;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-top: 210px;
+}
+.l img{
+    position: absolute;
+    top:22%;
+    left: 20px;
+}
+.l2 img{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+.s{
+    font-family: sans-serif;
+    position: absolute;
+    top: -15%;
+    left: 70%;
+    width: 165px;
+    height: 70px;
+    background-color:rgba(198, 219, 206, 1);
+}
+.s2{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background: rgba(132, 184, 152, 1);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.w{
+    position: absolute;
+    top: 15px;
+    left: 37%;
+    width: 70%;
+    height: 100%;
+    font-size: 20px;
+}
+.w p{
+    font-size: 10px;
+}
+.m{
+    position: relative;
+     margin-top: 20%;
+    width: 75%;
+    height: 200px;
+    margin-left: 12.5%;
+
+}
+.ri{
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    top: 2%;
+}
+.lin{
+    width: 150px;
+    height: 76px;
+    border-radius: 45px;
+    background: linear-gradient(90deg,#8e8e8e, #f79c00,#fba87e);
+}
+.ri p{
+    font-size: 10px;
+    margin-top: 20px;
+}
+.lf{
+    position: absolute;
+    left: 70%;
+    top: 1%;
+    width: 105px;
+    height: 150px;
+    border-radius: 55px;
+    background-image: url(business-3d-businessman-in-dark-blue-suit-with-phone-looking-straight\ 1.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    border: 1px solid rgba(198, 219, 206, 1);
+    background-color:  rgba(198, 219, 206, 1);
+
+   
+
+}
+.gt{
+    position: absolute;
+    top: 80%;
+    left: 80%;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: linear-gradient(270deg,#ff8c00,#ff0000);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.wa{
+    position: relative;
+    font-family: 'Red Rose', cursive;
+    width: 75%;
+    height: 200px;
+    margin-left: 12.5%;
+    margin-top: 100px;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.n{
+
+    position: absolute;
+    bottom: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ff{
+    position: absolute;
+    top: -5%;
+}
+.a{
+    position: relative;
+    width:100% ;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.b img{
+    border-radius: 50%;
+    background-color: #8e8e8e;
+    width: 35px;
+    height: 35px;
+}
+
+.b p{
+    width: 70px;
+    font-size: 10px;
+    position: absolute;
+    top: 20%;
+    left: 56%;
+}
+.ss{
+    width: 150px;
+    height: 70px;
+    background-image: url(milad-fakurian-nY14Fs8pxT8-unsplash\ 1.png);
+    background-size: cover;
+    border-radius: 35px;
+    font-size: 10px;
+    margin-top: 80px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.fff{
+    font-family: 'Red Rose', cursive;
+    position: absolute;
+    left: 70%;
+    width: 150px;
+}
+.de{
+    position: absolute;
+    right: 55%;
+    display: flex;
+    flex-direction: column;
+}
+.b{
+    width: 200px;
+}
+.fff p{
+    font-size: 10px;
+    margin-left: 25px;
+}
+.vv{
+    text-align: center;
+    font-family: 'Red Rose', cursive;
+    font-size: 60px;
+    margin-top: 60px;
+    width: 80%;
+    height: 150px;
+    margin-left: 150px;
+}
+.aa{
+    width: 75%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.card{
+    position: relative;
+    width: 50%;
+    height: 200px;
+    margin-left: 75px;
+    border: 1px solid #8e8e8e;
+    font-family: 'Red Rose', cursive;
+}
+.card1{
+    position: relative;
+    width: 50%;
+    height: 200px;
+    margin-left: 75px;
+    border: 1px solid #8e8e8e;
+    font-family: 'Red Rose', cursive;
+}
+.card2{
+    position: relative;
+    width: 50%;
+    height: 200px;
+    margin-left: 75px;
+    border: 1px solid #8e8e8e;
+    font-family: 'Red Rose', cursive;
+}
+.strong{
+    font-size: 100px;
+    font-family: 'Red Rose', cursive;
+    position: absolute;
+    left: 10%;
+    top: -5%;
+}
+.card p{
+    font-size: 12px;
+    width: 85%;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+.card1 p{
+    font-size: 12px;
+    width: 85%;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+.card2 p{
+    font-size: 12px;
+    width: 85%;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+
+.bbb img{
+    border-radius: 50%;
+    background-color: #8e8e8e;
+    margin-top: 140px;
+    margin-left: 10px;
+}
+.bd{
+    font-family: 'Red Rose', cursive;
+    position: absolute;
+    top: 75%;
+    left: 35%;
+    font-size: 20px;
+}
+.ceo{
+    margin-left: 80px;   
+    font-size: 9px;
+    position: absolute;
+    top: 89%;
+}
+.z p{
+    font-size: 12px;
+    width: 85%;
+    position: absolute;
+    top: 30%;
+}
+.bg{
+    font-family: 'Red Rose', cursive;
+    position: absolute;
+    top: 75%;
+    left: 35%;
+    font-size: 20px;
+}
+.x p{
+    font-size: 12px;
+    width: 85%;
+    position: absolute;
+    top: 30%;
+}
+.bf{
+    position: absolute;
+    top: 75%;
+    left: 35%;
+    font-family: 'Red Rose', cursive;
+    font-size: 20px;
+}
+.ddd{
+    position: relative;
+    font-family: 'Red Rose', cursive;
+    margin-top: 50px;
+    width: 100%;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(216, 231, 226, 1);
+}
+.xy{
+    margin-top: 20px;
+    font-size: 40px;
+}
+.ddd p{
+    margin-top: 20px;
+    width: 65%;
+}
+.em{
+    margin-top: 25px;
+    font-size: 12px;
+    width: 23%;
+    height: 15%;
+    background-color: #000;
+    color: #ffffff;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.clock{
+    position: absolute;
+    left: 85%;
+    top: 55%;
+}
+.sb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:30% ;
+    height: 50%;
+    background: rgba(132, 184, 152, 1);
+    margin-left: 15px;
+}
+.sb:hover{
+    cursor: pointer;
+}
+.ttt{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background: rgba(198, 219, 206, 1);
+    font-family: 'Red Rose', cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.kr{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(132, 184, 152, 1);
+    border-radius: 50%;
+    color:  rgba(198, 219, 206, 1);
+    margin: 0 10px;
+}
+.lg{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.ee{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.ttt ul{
+    margin-top: 30px;
+}
+.ttt img{
+    position: absolute;
+    left: 6%;
+   top: -38%;
+}
+h2:hover{
+    transform: scale(1.1);
+    background-color: aqua;
+    cursor: pointer ;
+}
+button:hover{
+    transform: scale(1.1);
+    background-color: #00a6ff;
+}
+h6:hover{
+    color: blueviolet;
+}
+li:hover{
+    cursor: pointer;
+    color:blue;
+    border-bottom: 1px solid blue;
+    transform: scale(1.1);
+}
+.sb:hover{
+    transform: scale(1.1);
+    background-color: rgb(255, 0, 102);
+}
+.kr:hover{
+    background-color: blue;
+    color: #8e8e8e;
+}
+@media only  screen and (max-width:1369px){
+    .top{
+        margin-bottom: 145px;
+    }
+    .w2{
+        position: absolute;
+        top: 50%;
+    }
+    .robo{
+        position: absolute;
+        top: 21%;
+        left: 76.5%;
+    }
+    sup{
+        position: absolute;
+    }
+    .bottom{
+        top: 14%;
+    }
+    .human{
+        margin-left: 100px;
+    }
+    .g1 h1{
+        margin-left: -60%;
+    }
+    .c img{
+        position: absolute;
+        left: 24%;
+    }
+    .d1left{
+        margin-top: 30px;
+    }
+    
+}
+@media only screen and (max-width:1324px){
+    .bottom p{
+        font-size: 13px;
+    }
+} 
+@media only screen and (max-width:1145px) {
+    .robo{
+        left: 80%;
+    }
+    h4{
+        position: absolute;
+        right: 82%;
+    }
+
+}
+@media only screen and (max-width:1067px){
+    .ttt img{
+        width:175px ;
+        height: 200px;
+    }
+    h6{
+        position: absolute;
+        top: 155%;
+    }
+    .card p{
+        font-size: 10px;
+    }
+    .card1 p{
+        font-size: 10px;
+        position: absolute;
+        left: 10%;
+    }
+    .card2 p{
+        position: absolute;
+        left: 10%;
+        font-size: 10px;
+    }
+    .bd{
+        font-size: 16px;
+    }
+    .bf{
+        font-size: 16px;
+        position: absolute;
+        left: 40%;
+    }
+    .bg{
+        font-size: 16px;
+    }
+    .bottom{
+        position: absolute;
+        bottom: 50%;
+    }
+}
+@media only screen and (max-width:933px) {
+    .human{
+        position: absolute;
+        left: -11%;
+        width: 300px;
+        height: 300px;
+    }
+}
+@media only screen and (max-width:881px) {
+    h4{
+        position: absolute;
+        right: 84%;
+    }
+    .human{
+        width: 270px;
+        height: 270px;
+    }
+}
+@media only screen and (max-width:1137px){
+    h4{
+        position: absolute;
+        right: 82.5%;
+    }
+}
+@media only screen and (max-width:1024px){
+    .human{
+        position: absolute;
+        left: 13%;
+    }
+
+    .human{
+        position: absolute;
+        left: 13%;
+        width: 400px;
+        height: 400px;
+    }
+    .bottom{
+        width: 270px;
+        height: 270px;
+    }
+    .bottom h2{
+        width: 100px;
+        height: 30px;
+    }
+    .bottom p{
+        font-size: 13px;
+    }
+    h6{
+        position: absolute;
+        top: 70%;
+        left:40%;
+    }
+    .text{
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width:1108px) {
+    h4{
+        position: absolute;
+        right: 82%;
+    }
+    .robo{
+        background: none;
+    }
+    .human{
+        position: absolute;
+        left: 10%;
+        width: 350px;
+        height: 350px;
+    }
+}
+@media only screen and (max-width:691px){
+    .ul{
+        font-size: 15px;
+    }
+    li{
+        margin: 0 10px;
+    }
+    h4{
+        position: absolute;
+        right: 82%;
+    }
+    .bottom{
+        position: absolute;
+        top: 20%;
+        left: 54%;
+    }
+    button{
+        width: 90px;
+        height: 35px;
+    }
+}
+@media only screen and (max-width:1008px){
+    .wa{
+        font-size: 50px;
+    }
+    .text{
+        font-size: 15px;
+    }
+    .midle{
+        margin-left: 200px;
+    }
+    .bbb{
+        margin-left: 40px;
+        width: 170px;
+        height: 170px;
+    }
+    .bbb{
+        position: absolute;
+        left: -20;
+    }
+    .ceo{
+        position: absolute;
+        top: 105%;
+    }
+    .bg{
+        position: absolute;
+        top: 90%;
+        left: 40%;
+    }
+    .bd{
+        position: absolute;
+        top: 90%;
+        left: 40%;
+    }
+    .bf{
+        position: absolute;
+        top: 90%;
+        left: 40%;
+    }
+    .ttt img{
+        width: 150px;
+        height: 175px;
+    }
+    .em{
+        font-size: 10px;
+    }
+    .ri{
+        position: absolute;
+        top: 20%;
+        left: 10%;
+    }
+    .g1{
+        position: absolute;
+        left: -8%;
+        font-size: small;
+    }
+    .g1 h1{
+        font-size: 35px;
+    }
+    .g2{
+        position: absolute;
+        top: 40%;
+    }
+    .l2 img{
+        width: 266px;
+        height: 100px;
+    }
+    .ddd p{
+        font-size: 12px;
+
+    }
+    .d1right{
+        width: 340px;
+    }
+    .d1right p{
+        font-size: 13px;
+
+    }
+    .bottom p{
+        font-size: 13px;
+    }
+    h6{
+            position: absolute;
+            top: 155%;
+    }
+    .de{
+        position: absolute;
+        left: 36%;
+    }
+    .r{
+        width: 250px;
+        margin-left: -20px;
+    }
+    h5{
+        width: 400px;
+        margin-left: -20px;
+    }
+}
+@media only screen and (max-width:1008px){
+    .card2{
+        display: none;
+    }
+    .card p{
+        font-size: 14px;
+    }
+    .card1 p{
+        font-size: 14px;
+    }
+    .l2 img{
+        width: 239px;
+    }
+    .l img{
+        height: 150px;
+    }
+    .j{
+        font-size: 12px;
+    }
+    .h{
+        position: absolute;
+        left: 4%;
+        width: 250px;
+        height: 225px;
+    }
+    .d1right{
+        width: 320px;
+    }
+    .rd{
+        height: 350px;
+    }
+    .r{
+        font-size: 20px;
+    }
+    b{
+        font-size: 15px;
+    }
+    .text{
+        font-size: 12px;
+    }
+    h4{
+        position: absolute;
+        right: 84%;
+    }
+    h6{
+        position:absolute;
+        left: 40%;
+        top: 81%;
+    }
+}
+@media only screen and (max-width:854px){
+    .em{
+        font-size: 8px;
+    }
+    .bottom{
+        width: 250px;
+        position: absolute;
+        left: 60%;
+    }
+} 
+@media only screen and (max-width:900px){
+    h4{
+        position: absolute;
+        right: 84%;
+    }
+    .human{
+        position: absolute;
+        left: 8%;
+    }
+    h6{
+        margin-left: 20px;
+    }
+    .img{
+        width: 35px;
+        height: 35px;
+    }
+    .text{
+        font-size:13px ;
+    }
+    .card p{
+        font-size: 12px;
+    }
+    .card1 p{
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width:888px){
+    .bottom{
+        position: absolute;
+        width: 300px;
+        height: 300px;
+    }
+    .human{
+        width: 300px;
+        height: 300px;
+    }
+    h5{
+        font-size:20px;
+    }
+    .bottom p{
+        font-size: 15px;
+    }
+    h6{
+        position: absolute;
+        top: 45%;
+    }
+    .l2 img{
+        width:228px ;
+    }
+
+}
+@media only screen and (max-width:844px) {
+    .wa{
+        font-size: 40px;
+    }
+    
+}
+@media only screen and (max-width:836px){
+    h6{
+        position: absolute;
+        top: 38%;
+    }
+    h5{
+        width: 350px;
+        margin-left: -40px;
+    }
+    .g1 p{
+        margin-left: -40px;
+    }
+}
+@media only screen and (max-width:744px){
+    h6{
+        position: absolute;
+        top: 45%;
+    }
+}
+@media only screen and (max-width:756px){
+    h4{
+        position: absolute;
+        right: 85.3%;
+    }
+    .header{
+        height: 75px;
+    }
+    .midle{
+        height: 100px;
+        margin-left: 150px;
+    }
+    .midle h1{
+        font-size: 35px;
+    }
+    .top{
+        position: absolute;
+        top: 5%;
+    }
+    .w2{
+        position: absolute;
+        top: 45%;
+    }
+    .text{
+        font-size: 10px;
+    }
+    .t1{
+        margin-left: 50px;
+    }
+    .bottom{
+      position: absolute;
+      top: 25%;
+    }
+    .rd{
+        height: 300px;
+    }
+    .d1{
+        height: 500px;
+        width: 50%;
+        margin-left: 160px;
+    }
+    .d1right{
+        position: absolute;
+        top: 60%;
+        left: 10%;
+        width: 300px;
+    }
+    .h{
+        position: absolute;
+        left: 1%;
+    }
+    .g{
+       width: 50%;
+       height: 475px; 
+    }
+    .g2{
+        width: 75%;
+        height: 200px;
+        position: absolute;
+        top: 15%;
+        left: 8%;
+    }
+    .j{
+        position: absolute;
+        top: -18%;
+        left: 20%;
+    }
+    .g1{
+        position: absolute;
+        width: 100%;
+        top: 50%;
+        left: 14%;
+    }
+    .wa{
+        font-size: 30px;
+    }
+    .wa img{
+        width: 50;
+        height: 35px;
+    }
+    .vv{
+        font-size: 45px;
+    }
+    .ddd p{
+        font-size: 10px;
+    }
+    
+    .ttt img{
+        width: 125px;
+        height: 150px;
+    }
+    .ddd img{
+        height: 60px;
+        width: 60px;
+    }
+    .a .b{
+        position: absolute;
+        left: 35%;
+    }
+    .card{
+        width: 45%;
+
+    }
+    .card1{
+        width: 45%;
+    }
+    .bbb{
+        position: absolute;
+        left: -15%;
+    }
+    .q2 p{
+        font-size: 15px;
+    }
+    h5{
+        width: 300px;
+        font-size: 17px;
+    }
+    .robo{
+        width: 0px;
+        height: 0px;
+    }
+    .bottom p{
+        width: 250px;
+    }
+    h6{
+        position: absolute;
+        top: 50%;
+    }
+
+}
+@media only screen and (max-width:714px){
+    .bottom{
+        width: 230px;
+        position: absolute;
+        top: 10%;
+    }
+    .bottom p{
+        font-size: 10px;
+    }
+    h6{
+        position: absolute;
+        top: 39%;
+    }
+    .human{
+        width: 250px;
+    }
+    .t1{
+        margin-left: 40px;
+    }
+} 
+@media only screen and (max-width:672px){
+
+    .em{
+        width: 200px;
+    }
+}
+@media only screen and (max-width:650px){
+    .t1{
+        margin-left: 10px;
+    }
+    h4{
+        position: absolute;
+        right: 81%;
+    }
+    .rd{
+        width: 50%;
+        height: 450px;
+    }
+    .bottom{
+        position: absolute;
+        top: 65%;
+        left: 75%;
+
+    }
+    .human{
+        position: absolute;
+        left: 35%;
+    }
+    .card{
+        margin: 0;
+    }
+    .midle{
+        margin-left: 125px;
+    }
+
+}
+@media only screen and (max-width:618px){
+    .card1{
+        margin: 0;
+    }
+    .em{
+        font-size: 5px;
+    }
+    .ttt img{
+        width: 100px;
+        height: 125px;
+    }
+    .ddd p{
+        font-size: 9px;
+    }
+    .clock img{
+        width: 40px;
+        height: 40px;
+    }
+    .vv img{
+        width:30px;
+        height: 30px;
+    }
+    .vv {
+        font-size:35px;
+    }
+    .robo{
+        width: 0px;
+        height: 0px;
+    }
+} 
+@media only screen and (max-width:574px){
+    .a{
+        height: 300px;
+    }
+    .de{
+        position: absolute;
+        top: 23%;
+    }
+    .fff{
+        position: absolute;
+        left: 35%;
+    }
+    .m{
+        margin-top: 300px;
+    }
+    .card1{
+        display: none;
+    }
+    .card{
+        position: absolute;
+        left: 25%;
+    }
+    .xy{
+        font-size: 30px;
+    }
+    .g1{
+        position: absolute;
+        left: 5%;
+    }
+    .d1right p{
+        width: 200px;
+    }
+    .h img{
+        position: absolute;
+        top: 40%;
+        left: 15%;
+        width: 200px;
+        height: 150px;
+    }
+    .g2{
+        width: 250px;
+    }
+    .l2 img{
+        width: 200px;
+    }
+    .l img{
+        position: absolute;
+        left: 5%;
+        width: 30px;
+    }
+    .midle h1{
+        font-size: 25px;
+    }
+    .midle{
+        height: 75px;
+    }
+    h4{
+        position: absolute;
+        right: 82%;
+    }
+    .t1{
+        height: 200px;
+    }
+    .q2{
+        position: absolute;
+        top: 25%;
+    }
+    .q2 img{
+        position: absolute;
+        left:25%;
+        top: 32%;
+    }
+    .q2 p{
+        font-size: 10px;
+    }
+    .q2 .b{
+        font-size: 20px;
+        position: absolute;
+        left: 45%;
+        top: 50%;
+    }
+    .q1{
+        margin-left: 120px;
+    }
+    
+}
+@media only screen and (max-width:516px){
+        ul{
+            display: none;
+        }
+        h3{
+            position: absolute;
+            left: 10%;
+        }
+        button{
+            position: absolute;
+            left: 80%;
+        }
+        .human{
+            position: absolute;
+            left: 20%;
+        }
+        .bottom{
+            position: absolute;
+            left: 60%;
+        }
+        .t1{
+            margin-left: -10px;
+        }
+        .g2{
+            position: absolute;
+            left: -10%;
+        }
+        .d1{
+            margin-left: 130px;
+
+        }
+        .g1{
+            position: absolute;
+            left: 20%;
+        }
+        .g1 p{
+            width: 250px;
+        }
+        .g1 h1{
+            font-size: 25px;
+        }
+        .wa{
+            font-size: 25px;
+                
+        }
+        .vv{
+            font-size: 25px;
+        }
+        .r{
+            font-family: "Red Rose";
+          font-size: 15px;
+          width: 200px;
+        }
+        .ttt img{
+            display: none;
+        }
+        .xy{
+            font-size: 20px;
+        }
+        .ddd p{
+            font-size: 6px;
+        }
+        .midle{
+            margin-left: 85px;
+        }
+} 
+@media only screen and (max-width:396px){
+        h4{
+            right: 60%;
+        }
+        .text{
+            font-size: 5px;
+        }
+        .human{
+            position: absolute;
+            left: 8%;
+        }
+        sub{
+            font-size: 4px;
+        }
+        .d1 b{
+            font-size: 10px;
+        }
+        .d1 p{
+            font-size: 8px;
+        }
+        .d1{
+            margin-left: 100px;
+        }
+        .q1{
+            margin-left: 80px;
+        }
+        .g1{
+            margin-left: 120px;
+        }
+        .lin{
+            width: 100px;
+            height: 50px;
+        }
+        .lf{
+            width: 50px;
+            height: 75px;
+        }
+        .wa{
+            font-size: 20px;
+        }
+        .wa img{
+            width: 40px;
+            height: 20px;
+        }
+        .vv{
+            margin-left: 100px;
+        }
+        .card{
+            width: 250px;
+            margin-left: -10px;
+        }
+        .em{
+            font-size: 3px;
+        }
+        .g2{
+            margin-left: 90px;
+        }
+        .s p{
+            font-size: 5px;
+        }
+        .s strong{
+            font-size: 8px;
+        }
+        .s2{
+            position: absolute;
+            top: 15%;
+            width: 20px;
+            height: 20px;
+        }
+        .s2 img{
+            width: 18px;
+            height: 18px;
+        } 
+        .s{
+            
+            width: 100px;
+            height: 30px;
+            position: absolute;
+            margin-top: 5%;
+        }
+        .w{
+            position: absolute;
+            top: 15%;
+        }
+        .w strong{
+            position: absolute;
+        }
+        .g2{
+            width: 200px;
+            height: 150px;
+        }
+        .l2 img{
+            width: 160px;
+            height: 80px;
+        }
+        .l img{
+            width: 25px;
+            height: 110px;
+            position: absolute;
+            top: 10%;
+        }
+        .j{
+            font-size: 10px;
+            position: absolute;
+            top: -55%;
+        }
+        .g1 h1{
+            font-size: 20px;
+        }
+        .g1 img{
+            width: 30px;
+            height: 30px;
+        }
+}
+@media only screen and (max-width:396px){
+        .midle h1{
+            font-size: 17px;
+        }
+        .human{
+            margin-left: 70px;
+        }
+        .bottom{
+            position: absolute;
+            left: 40%;
+        }
+        .h img{
+            position: absolute;
+            left: 6%;
+        }
+        .pl img{
+            width: 20px;
+            height: 15px;
+        }
+        .d1right p{
+            width: 160px;
+
+        }
+        .card{
+            margin-left: -30px;
+        }
+}
+@media only screen and (max-width:296px){
+        button{
+            margin-left: 100px;
+        }
+        h4{
+            position: absolute;
+            right: 68%;
+        }
+        .midle{
+            margin-left: 60px;
+            height: 60px;
+        }
+        .midle h1{
+            font-size: 13px;
+        }
+        .human{
+            margin-left: 20px;
+        }
+        .q1{
+            margin-left: 50px;
+        }
+        .q2{
+            position: absolute;
+            left: 25%;
+        }
+        .d1{
+            width: 180px;
+            margin-left: 60px;
+        }
+        .d1right p{
+            width: 130px;
+        }
+        .g1{
+            margin-left: 90px;
+        }
+        .g1 p{
+            width: 130px;
+            font-size: 8px;
+        }
+        .vv{
+            margin-left: 40px;
+        }
+        .wa{
+            font-size: 15px;
+        }
+        .a{
+            margin-left: -30px;
+        }
+        .card{
+            width: 200px;
+            height: 150px;
+        }
+        .card p{
+            margin-top: 10px;
+            font-size: 10px;
+        }
+        .bbb{
+            position: absolute;
+            top: -23%;
+        }
+        .bbb img{
+            width: 30px;
+            height: 30px;
+        }
+        .bd{
+            font-size: 14px;
+            position: absolute;
+            left: 27%;
+            top: 85%;
+        }
+        .ceo{
+            position: absolute;
+            top: 95%;
+            left: -20%;
+        }
+        .em{
+            font-size: 2px;
+        }
+}
+@media only screen and (max-width:820px){
+        .q2 .b{
+width: 30px;
+        }
+}
+@media only screen and (max-width:780px){
+        .w{
+            width: 100px;
+        }
+}
+@media only screen and (max-width:740px){
+        .t1{
+            margin-left: 0;
+    }
+    .vv{
+        width: 400px;
+    }
+}
+@media only screen and (max-width:697px){
+    .card{
+        margin-left: 0;
+    }
+    .em{
+        width: 250px;
+    }
+    h6{
+        position: absolute;
+        top: 36%;
+    }
+}
+@media only screen and (max-width:691px){
+    h4{
+        position: absolute;
+        right: 80%;
+    }
+}
+@media only screen and (max-width:610px){
+    .midle h1{
+        font-size: 29px;
+    }
+}
+@media only screen and (max-width:587px){
+    .midle h1{
+        font-size: 24px;
+    }
+    .d1right p{
+        width: 200px;
+    }
+    .r{
+        width: 230px;
+    }
+    .h img{
+        margin-left: -10px;
+    }
+    .vv{
+        margin-left: 100px;
+    }
+    .em{
+        font-size: 8px;
+        width: 170px;
+    }
+    .g1{
+        margin-left: 100px;
+    }
+    .q1{
+        margin-left: 20px;
+    }
+    h4{
+        position: absolute;
+        right: 82%;
+    }
+}
+@media only screen and (max-width:571px){
+    h4{
+    position: absolute;
+    right: 76%;
+    }
+    .midle{
+        margin-left: 110px;
+    }
+    .wa{
+        margin-top: 30px;
+    }
+    .a{
+        height: 200px;
+    }
+    .vv{
+        margin-left: 30px;
+        width: 300px;
+    }
+    .em{
+        font-size: 8px;
+        width: 200px;
+    }
+    .ee{
+        font-size: 20px;
+    }
+    .h img{
+        position: absolute;
+        left: 5%;
+}
+.q1{
+    margin-left: 80px;
+}
+.m{
+    margin-top: 130px;
+}
+.r{
+    width: 200px;
+    margin-left: -10px ;
+}
+.d1{
+    height: 550px;
+}
+.h img{
+    margin-left: 20px;
+}
+}
+@media only screen and (max-width:444px){
+    .midle{
+        margin-left: 100px;
+    }
+    .midle h1{
+        font-size: 20px;
+    }
+    .text{
+        font-size: 9px;
+    }
+    .d1right p{
+        font-size: 10px;
+    }
+    .d1right b{
+        font-size: 13px;
+    }
+    .h img{
+        width: 150px;
+        height: 130px;
+        position: absolute;
+        top: 20%;
+    }
+    .d1{
+        height: 400px;
+    }
+    .d1right{
+        position: absolute;
+        top: 50%;
+    }
+    .pl img{
+        width: 30px;
+        height: 25px;
+    }
+    .q2{
+        position: absolute;
+        left: 40%;
+    }
+    sub{
+        font-size: 8px;
+    }
+    .midle{
+        margin-left: 90px;
+    }
+    .s{
+        width: 120px;
+        height: 50px;
+    }
+    .s p{
+        font-size: 7px;
+    }
+    .s strong{
+        font-size: 10px;
+    }
+    .s2{
+        width: 25px;
+        height: 25px;
+    }
+    .s2 img{
+        width: 24px;
+        height: 24px;
+    }
+    h4{
+        position: absolute;
+        right: 73%;
+    }
+    .q1{
+        width: 150px;
+        margin-left: 50px;
+    }
+    .ddd p{
+        font-size: 8px;
+    }
+    .d1right p{
+        width: 150px;
+    }
+    .d1right{
+        width: 200px;
+    }
+    button{
+        position: absolute;
+        left: 70%;
+    }
+
+}
+@media only screen and (max-width:395px){
+    .m{
+        margin-top: 100px;
+    }
+    .wa{
+        height: 100px;
+    }
+    .card{
+        margin-bottom: 30px;
+        margin-left: -30px;
+    }
+    .vv{
+        height: 100px;
+    }
+    .ss{
+        position: absolute;
+        top: 55%;
+        margin: 0;
+    }
+    .de{
+        position: absolute;
+        top: 3%;
+    }
+    .fff p{
+        margin-top:240px;
+    }
+    .d1right{
+        width: 200px;
+    }
+    .r{
+        margin-left: -30px;
+        font-size: 12px;
+    }
+    .vv{
+        margin-left: 20px;
+    }
+    .midle{
+        margin-left: 70px;
+    }
+    h4{
+        position: absolute;
+        right: 70%;
+    }
+    .q1{
+        width: 100px;
+    }
+}
+@media only screen and (max-width:381px){
+    .aa{
+        width: 200px;
+    }
+    .midle{
+        margin-left: 80px;
+    }
+
+}
+@media only screen and (max-width:361px){
+    .w{
+        width: 60px;
+    }
+    .h img{
+        margin: 0;
+    }
+    .g1 p{
+        width: 200px;
+        font-size: 10px;
+    }
+    .g2{
+        margin-left: 80px;
+    }
+    .d1{
+        width: 200px;
+    }
+    .h{
+        width: 100px;
+    }
+    .q2{
+        margin-left: -30px;
+    }
+    .human{
+        margin-left: 40px;
+    }
+    .midle{
+        width: 250px;
+        margin-left: 55px;
+    }
+    h4{
+        position: absolute;
+        right: 68%;
+    }
+}
+@media only screen and (max-width:311px){
+    .aa{
+        width:200px ;
+    }
+    .vv{
+        width: 200px;
+    }
+    .w{
+        width: 50px;
+    }
+    .q1{
+        margin: 30px;
+    }
+    .r{
+        width: 150px;
+        font-size: 12px;
+    }
+    .h img{
+        width: 120px;
+        height: 80px;
+    }
+    .d1right p{
+        width: 130px;
+    }
+    .d1right{
+        position: absolute;
+        top: 45%;
+        width: 150px;
+    }
+    .d1{
+        margin-left: 60px;
+        height: 360px;
+    }
+    .r{
+        margin-left: -15px;
+    }
+    .h img{
+        margin-left: 30px;
+    }
+    .g2{
+        margin-left: 50px;
+    }
+    button{
+        margin-left: 80px;
+    }
+    .midle{
+        margin-left: 30px;
+    }
+    .midle h1{
+        font-size: 15px;
+    }
+    h4{
+        position: absolute;
+        right: 65%;
+    }
+    button{
+        margin-left: 0;
+       position: absolute;
+       right: 15%;
+    }
+    h5{
+        width: 230px;
+        margin-left: 0;
+    }
+    .bottom p{
+        width: 220px;
+    }
+}
+@media only screen and (max-width:302px){
+    .q2{
+        position: absolute;
+        left: 20%;
+    }
+    .human{
+        margin-left: 20px;
+    }
+    .g1{
+        margin-left: 80px;
+        margin-top: 30px;
+    
+    }
+    .wa{
+        font-size: 16px;
+        margin-top: 0px;
+    }
+    .card{
+        margin-left:-50px ;
+    }
+    .vv{
+        margin-left: 30px;
+    }
+    .a{
+        margin-left: -50px;
+    }
+    .s{
+        width: 90px;
+        height: 35px;
+    }
+    .w  {
+        position: absolute;
+        left: 45%;
+    }
+    .s2{
+        position: absolute;
+        left: 5%;
+    }
+    .aa{
+        width: 100px;
+    }
+    .card{
+        width: 200px;
+        margin-left: -15px;
+    }
+
+
+}
+@media only screen and (max-width:295px){
+    .human{
+        width: 200px;
+        margin-left: 40px;
+    }
+    .midle h1{
+        font-size: 13px;
+    }
+    .midle img{
+        width: 25px;
+        height: 25px;
+    }
+    .g2{
+        margin-left: 60px;
+    }
+
+}
+@media only screen and (max-width:298px){
+    .midle{
+        width: 200px;
+        margin-left: 50px;
+    }
+    .d1{
+        width: 200px;
+        margin-left: 50px;
+    }
+    .h img{
+        position: absolute;
+        left: 15%;
+    }
+    .d1right{
+        width: 150px;
+    }
+    .r{
+        text-align: center;
+    }
+    h5{
+        text-align: center;
+    }
+    .bottom{
+        margin-left: -25px;
+    }
+    .g1 h1{
+        text-align: center;
+        width: 150px;
+    }
+    .ee{
+        font-size: 20px;
+    }
+    .em{
+        font-size: 5px;
+        width: 120px;
+        height: 20px;
+    }
+    .vv{
+        text-align: center;
+    }
+    button{
+        font-size: 10px;
+        width: 70px;
+        height: 25px;
+    }
+    .g2{
+        margin-left: 40px;
+    }
+}
+@media only screen and (max-width:275px){
+    .g2{
+        margin-left: 40px;
+    }
+    .h{
+        width: 150px;
+        position: absolute;
+
+    }
+    .d1right{
+        width: 130px;
+    }
+    .h img{
+        position: absolute;
+        left: 20%;
+    }
+    .xy{
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width:262px){
+    .g1 p{
+        width: 150px;
+    }
+    b{
+        font-size: 10px;
+    }
+    .w{
+        width: 50px;
+    }
+}
+@media only screen and (max-width:250px){
+    .g2{
+        margin-left: 50px;
+    }
+    .m{
+        margin-top: 100px;
+    }
+    .xy{
+        font-size: 16px;
+    }
+    .ee{
+        font-size: 20px;
+    }
+    .wa{
+        font-size: 14px;
+    }
+    .s{
+        width: 80px;
+    }
+    .s2 {
+        position: absolute;
+        left: 8%;
+    }
+    .bottom{
+        margin-left: -30px;
+    }
+    .midle{
+        margin-left: 30px;
+    }
+    .midle h1{
+        font-size: 15px;
+    }
+    .w{
+        width: 30px;
+    }
+    .g2{
+        margin-left: 30px;
+    }
+    .d1{
+        margin-left: 40px;
+    }
+    .aa{
+        width: 130px;
+    }
+    .clock img{
+        width: 30px;
+        height: 30px;
+    }
+    .de{
+        width: 80px;
+        margin-left: -60px;
+    }
+    .q2{
+        margin-left: -20px;
+    }
+    .bottom{
+        position: absolute;
+        top: 55%;
+    }
+    .rd{
+        height: 400px;
+    }
+    .card{
+        margin-left: -35px;
+    }
+    .de{
+        margin-left: 8px;
+    }
+    .d1right b{
+        font-size: 10px;
+    }
+    h4{
+        position: absolute;
+        right: 60%;
+    }
+    .text{
+        width: 150px;
+        margin-left: 60px;
+    }
+    
+}
